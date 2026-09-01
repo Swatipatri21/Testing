@@ -1,0 +1,162 @@
+{
+  "projectId": "PRJ-1788263329879",
+  "projectName": "notes",
+  "sourceRepository": null,
+  "applicationUrl": "https://github.com/Swatipatri21/notes_project",
+  "generatedAt": "2026-09-01T11:48:56.840Z",
+  "count": 4,
+  "testCases": [
+    {
+      "caseId": "TC-1788263336826-01",
+      "title": "Reject missing required field login",
+      "description": "Submit the discovered form without login.",
+      "type": "Negative",
+      "priority": "P2",
+      "expectedResult": "The application rejects submission because login is required.",
+      "confidence": 86,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "01b75be8-95c6-4be7-942d-098568eeb32b",
+      "projectId": "bdc7600c-3925-4c1e-81fa-7ae082c91ecb",
+      "testData": {
+        "missingField": "login"
+      },
+      "automationSpec": {
+        "actions": [
+          {
+            "type": "submitWithoutField",
+            "field": "login"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "validationError",
+            "field": "login"
+          }
+        ]
+      },
+      "sourceEvidence": {
+        "field": {
+          "name": "login",
+          "type": "text",
+          "required": true,
+          "placeholder": ""
+        }
+      }
+    },
+    {
+      "caseId": "TC-1788263336826-02",
+      "title": "Reject missing required field password",
+      "description": "Submit the discovered form without password.",
+      "type": "Negative",
+      "priority": "P2",
+      "expectedResult": "The application rejects submission because password is required.",
+      "confidence": 83,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "01b75be8-95c6-4be7-942d-098568eeb32b",
+      "projectId": "bdc7600c-3925-4c1e-81fa-7ae082c91ecb",
+      "testData": {
+        "missingField": "password"
+      },
+      "automationSpec": {
+        "actions": [
+          {
+            "type": "submitWithoutField",
+            "field": "password"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "validationError",
+            "field": "password"
+          }
+        ]
+      },
+      "sourceEvidence": {
+        "field": {
+          "name": "password",
+          "type": "password",
+          "required": true,
+          "placeholder": ""
+        }
+      }
+    },
+    {
+      "caseId": "TC-1788263336832-03",
+      "title": "Reject missing required field login",
+      "description": "Submit the discovered form without login.",
+      "type": "Negative",
+      "priority": "P2",
+      "expectedResult": "The application rejects submission because login is required.",
+      "confidence": 91,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "c2b889d4-26f8-428a-af23-efb6d1aa8c28",
+      "projectId": "bdc7600c-3925-4c1e-81fa-7ae082c91ecb",
+      "testData": {
+        "missingField": "login"
+      },
+      "automationSpec": {
+        "actions": [
+          {
+            "type": "submitWithoutField",
+            "field": "login"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "validationError",
+            "field": "login"
+          }
+        ]
+      },
+      "sourceEvidence": {
+        "field": {
+          "name": "login",
+          "type": "text",
+          "required": true,
+          "placeholder": ""
+        }
+      }
+    },
+    {
+      "caseId": "TC-1788263336832-04",
+      "title": "Reject missing required field password",
+      "description": "Submit the discovered form without password.",
+      "type": "Negative",
+      "priority": "P2",
+      "expectedResult": "The application rejects submission because password is required.",
+      "confidence": 86,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "c2b889d4-26f8-428a-af23-efb6d1aa8c28",
+      "projectId": "bdc7600c-3925-4c1e-81fa-7ae082c91ecb",
+      "testData": {
+        "missingField": "password"
+      },
+      "automationSpec": {
+        "actions": [
+          {
+            "type": "submitWithoutField",
+            "field": "password"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "validationError",
+            "field": "password"
+          }
+        ]
+      },
+      "sourceEvidence": {
+        "field": {
+          "name": "password",
+          "type": "password",
+          "required": true,
+          "placeholder": ""
+        }
+      }
+    }
+  ]
+}
