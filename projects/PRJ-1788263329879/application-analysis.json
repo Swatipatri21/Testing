@@ -1,0 +1,219 @@
+{
+  "projectId": "PRJ-1788263329879",
+  "projectName": "notes",
+  "applicationUrl": "https://github.com/Swatipatri21/notes_project",
+  "sourceRepository": null,
+  "analysis": {
+    "source": "site_analysis",
+    "startUrl": "https://github.com/Swatipatri21/notes_project",
+    "pagesAnalyzed": 6,
+    "pages": [
+      {
+        "url": "https://github.com/Swatipatri21/notes_project",
+        "title": "GitHub - Swatipatri21/notes_project · GitHub",
+        "formCount": 0
+      },
+      {
+        "url": "https://github.com/Swatipatri21/notes_project#start-of-content",
+        "title": "GitHub - Swatipatri21/notes_project · GitHub",
+        "formCount": 0
+      },
+      {
+        "url": "https://github.com/",
+        "title": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub",
+        "formCount": 2
+      },
+      {
+        "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FSwatipatri21%2Fnotes_project",
+        "title": "Sign in to GitHub · GitHub",
+        "formCount": 1
+      },
+      {
+        "url": "https://github.com/features/copilot",
+        "title": "GitHub Copilot · Your AI pair programmer · GitHub",
+        "formCount": 0
+      },
+      {
+        "url": "https://github.com/features/ai/github-app",
+        "title": "GitHub Copilot app · GitHub",
+        "formCount": 0
+      }
+    ],
+    "forms": [
+      {
+        "action": "/signup",
+        "method": "GET",
+        "fields": [
+          {
+            "name": "source",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "user_email",
+            "type": "email",
+            "required": false,
+            "placeholder": "you@domain.com"
+          }
+        ],
+        "submitLabel": "Sign up for GitHub",
+        "pageUrl": "https://github.com/",
+        "pageTitle": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub"
+      },
+      {
+        "action": "/signup",
+        "method": "GET",
+        "fields": [
+          {
+            "name": "source",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "user_email",
+            "type": "email",
+            "required": false,
+            "placeholder": "you@domain.com"
+          }
+        ],
+        "submitLabel": "Sign up for GitHub",
+        "pageUrl": "https://github.com/",
+        "pageTitle": "GitHub · Change is constant. GitHub keeps you ahead. · GitHub"
+      },
+      {
+        "action": "/session",
+        "method": "POST",
+        "fields": [
+          {
+            "name": "authenticity_token",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "add_account",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "login",
+            "type": "text",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "password",
+            "type": "password",
+            "required": true,
+            "placeholder": ""
+          },
+          {
+            "name": "webauthn-conditional",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "javascript-support",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "webauthn-support",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "webauthn-iuvpaa-support",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "return_to",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "allow_signup",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "client_id",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "integration",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "required_field_0202",
+            "type": "text",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "timestamp",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "timestamp_secret",
+            "type": "hidden",
+            "required": false,
+            "placeholder": ""
+          },
+          {
+            "name": "commit",
+            "type": "submit",
+            "required": false,
+            "placeholder": ""
+          }
+        ],
+        "submitLabel": "",
+        "pageUrl": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FSwatipatri21%2Fnotes_project",
+        "pageTitle": "Sign in to GitHub · GitHub"
+      }
+    ],
+    "signals": {
+      "hasLogin": true,
+      "hasRegistration": true,
+      "hasPasswordReset": true
+    },
+    "headings": [
+      "Navigation Menu",
+      "Latest commit",
+      "History",
+      "Folders and files",
+      "About",
+      "Releases",
+      "Packages",
+      "Contributors",
+      "Languages",
+      "Footer",
+      "The future of building happens together",
+      "GitHub features",
+      "GitHub customers",
+      "Accelerate your entire workflow",
+      "Built-in application security where found means fixed",
+      "Work together, achieve more",
+      "From startups to enterprises, GitHub scales with teams of any size in any industry.",
+      "Millions of developers and businesses call GitHub home",
+      "Footnotes",
+      "Sign in to GitHub"
+    ]
+  }
+}
