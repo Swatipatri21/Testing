@@ -1,0 +1,48 @@
+{
+  "projectId": "PRJ-1788330295477",
+  "projectName": "herokuapp",
+  "sourceRepository": null,
+  "applicationUrl": "https://the-internet.herokuapp.com",
+  "generatedAt": "2026-09-02T06:25:35.112Z",
+  "count": 1,
+  "testCases": [
+    {
+      "caseId": "TC-1788330335073-01",
+      "title": "Navigate to application root landing page",
+      "description": "Verify that a web user can navigate to the root landing page URL at https://the-internet.herokuapp.com/ as defined in the acceptance criteria.",
+      "type": "Functional",
+      "priority": "P0",
+      "expectedResult": "The application root home page loads successfully at route '/' without errors.",
+      "confidence": 99,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "87b128c8-3e45-4d45-b08d-320121933374",
+      "projectId": "4ea321b1-73a5-497e-aced-47360731c104",
+      "testData": {},
+      "automationSpec": {
+        "url": "https://the-internet.herokuapp.com/",
+        "method": "GET",
+        "actions": [
+          "Navigate to https://the-internet.herokuapp.com/"
+        ],
+        "selector": "",
+        "assertions": [
+          "Verify the browser URL is https://the-internet.herokuapp.com/",
+          "Verify HTTP response status is 200 OK"
+        ]
+      },
+      "sourceEvidence": {
+        "file": "",
+        "path": "",
+        "field": "",
+        "route": "/",
+        "method": "GET",
+        "reason": "Root landing page present in analyzed pages evidence.",
+        "source": "site-analysis",
+        "pageUrl": "https://the-internet.herokuapp.com/",
+        "endpoint": "",
+        "selector": ""
+      }
+    }
+  ]
+}
