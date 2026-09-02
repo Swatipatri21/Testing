@@ -1,0 +1,84 @@
+{
+  "projectId": "PRJ-1788329692130",
+  "projectName": "testing",
+  "applicationUrl": "https://the-internet.herokuapp.com/login",
+  "sourceRepository": null,
+  "analysis": {
+    "source": "site_analysis",
+    "startUrl": "https://the-internet.herokuapp.com/login",
+    "analyzedAt": "2026-09-02T06:30:57.862Z",
+    "pagesAnalyzed": 1,
+    "pages": [
+      {
+        "url": "https://the-internet.herokuapp.com/login",
+        "finalUrl": "https://the-internet.herokuapp.com/login",
+        "title": "",
+        "status": null,
+        "formCount": 0,
+        "inputCount": 0,
+        "buttonCount": 0,
+        "linkCount": 0,
+        "headingCount": 0,
+        "tableCount": 0,
+        "features": [],
+        "authSignals": [],
+        "error": "page.$$eval: ReferenceError: extractField is not defined\n    at eval (eval at evaluate (:311:30), <anonymous>:11:13)\n    at Array.map (<anonymous>)\n    at eval (eval at evaluate (:311:30), <anonymous>:10:12)\n    at Array.map (<anonymous>)\n    at eval (eval at evaluate (:311:30), <anonymous>:2:13)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+      }
+    ],
+    "forms": [],
+    "inputs": [],
+    "buttons": [],
+    "links": [],
+    "messages": [],
+    "routes": [],
+    "headings": [],
+    "features": [],
+    "featureSummary": {
+      "totalPages": 1,
+      "totalForms": 0,
+      "totalInputs": 0,
+      "totalButtons": 0,
+      "totalLinks": 0,
+      "totalMessages": 0,
+      "uniqueRoutes": 0,
+      "features": [],
+      "authentication": {
+        "login": false,
+        "registration": false,
+        "passwordReset": false,
+        "authenticatedArea": false
+      },
+      "fileUpload": false,
+      "search": false
+    },
+    "signals": {
+      "hasLogin": false,
+      "hasRegistration": false,
+      "hasPasswordReset": false,
+      "hasAuthenticatedArea": false,
+      "hasFileUpload": false,
+      "hasSearch": false,
+      "hasForms": false,
+      "hasTables": false,
+      "hasDropdowns": false,
+      "hasCheckboxes": false,
+      "hasRadioButtons": false
+    },
+    "textSummary": "",
+    "pageEvidence": [
+      {
+        "url": "https://the-internet.herokuapp.com/login",
+        "title": "",
+        "forms": [],
+        "inputs": [],
+        "buttons": [],
+        "navigation": [],
+        "tables": [],
+        "messages": [],
+        "headings": [],
+        "authSignals": [],
+        "textSummary": ""
+      }
+    ]
+  }
+}
