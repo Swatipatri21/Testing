@@ -3,8 +3,8 @@
   "projectName": "testing",
   "sourceRepository": null,
   "applicationUrl": "https://the-internet.herokuapp.com/login",
-  "generatedAt": "2026-09-02T06:31:32.917Z",
-  "count": 1,
+  "generatedAt": "2026-09-02T06:32:11.585Z",
+  "count": 2,
   "testCases": [
     {
       "caseId": "TC-1788330692908-01",
@@ -31,6 +31,49 @@
         "assertions": [
           "Assert current URL is https://the-internet.herokuapp.com/login",
           "Assert page load completes successfully"
+        ]
+      },
+      "sourceEvidence": {
+        "file": "",
+        "path": "",
+        "field": "",
+        "route": "/login",
+        "method": "GET",
+        "reason": "Page URL https://the-internet.herokuapp.com/login was analyzed as the application entry point route.",
+        "source": "site-analysis",
+        "pageUrl": "https://the-internet.herokuapp.com/login",
+        "endpoint": "",
+        "selector": ""
+      }
+    },
+    {
+      "caseId": "TC-1788330731580-02",
+      "title": "Verify successful navigation to the /login route",
+      "description": "Verify that requesting the application's login URL (https://the-internet.herokuapp.com/login) resolves to the expected target route without errors.",
+      "type": "Functional",
+      "priority": "P0",
+      "expectedResult": "The browser successfully navigates to https://the-internet.herokuapp.com/login and the route is resolved.",
+      "confidence": 95,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "7d5c826b-36f3-412f-8b39-de600ec971f5",
+      "projectId": "6a6f7c4c-df49-4ff8-84a1-09941e65a31c",
+      "testData": {},
+      "automationSpec": {
+        "url": "https://the-internet.herokuapp.com/login",
+        "method": "GET",
+        "actions": [
+          {
+            "type": "navigate",
+            "target": "https://the-internet.herokuapp.com/login"
+          }
+        ],
+        "selector": "",
+        "assertions": [
+          {
+            "type": "url_equals",
+            "value": "https://the-internet.herokuapp.com/login"
+          }
         ]
       },
       "sourceEvidence": {
