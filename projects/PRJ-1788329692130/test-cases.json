@@ -1,0 +1,50 @@
+{
+  "projectId": "PRJ-1788329692130",
+  "projectName": "testing",
+  "sourceRepository": null,
+  "applicationUrl": "https://the-internet.herokuapp.com/login",
+  "generatedAt": "2026-09-02T06:31:32.917Z",
+  "count": 1,
+  "testCases": [
+    {
+      "caseId": "TC-1788330692908-01",
+      "title": "Verify navigation to the login page URL resolves to the designated login route",
+      "description": "Verify that requesting https://the-internet.herokuapp.com/login successfully routes to the login page and returns a valid response as stated in acceptance criteria.",
+      "type": "Functional",
+      "priority": "P0",
+      "expectedResult": "The browser successfully navigates to https://the-internet.herokuapp.com/login and the /login route returns a valid response.",
+      "confidence": 99,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "7d5c826b-36f3-412f-8b39-de600ec971f5",
+      "projectId": "6a6f7c4c-df49-4ff8-84a1-09941e65a31c",
+      "testData": {
+        "targetUrl": "https://the-internet.herokuapp.com/login"
+      },
+      "automationSpec": {
+        "url": "https://the-internet.herokuapp.com/login",
+        "method": "GET",
+        "actions": [
+          "Navigate to https://the-internet.herokuapp.com/login"
+        ],
+        "selector": "",
+        "assertions": [
+          "Assert current URL is https://the-internet.herokuapp.com/login",
+          "Assert page load completes successfully"
+        ]
+      },
+      "sourceEvidence": {
+        "file": "",
+        "path": "",
+        "field": "",
+        "route": "/login",
+        "method": "GET",
+        "reason": "Page URL https://the-internet.herokuapp.com/login was analyzed as the application entry point route.",
+        "source": "site-analysis",
+        "pageUrl": "https://the-internet.herokuapp.com/login",
+        "endpoint": "",
+        "selector": ""
+      }
+    }
+  ]
+}
