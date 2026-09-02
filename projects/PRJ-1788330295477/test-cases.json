@@ -3,8 +3,8 @@
   "projectName": "herokuapp",
   "sourceRepository": null,
   "applicationUrl": "https://the-internet.herokuapp.com",
-  "generatedAt": "2026-09-02T06:25:35.112Z",
-  "count": 1,
+  "generatedAt": "2026-09-02T06:25:48.141Z",
+  "count": 2,
   "testCases": [
     {
       "caseId": "TC-1788330335073-01",
@@ -29,6 +29,43 @@
         "assertions": [
           "Verify the browser URL is https://the-internet.herokuapp.com/",
           "Verify HTTP response status is 200 OK"
+        ]
+      },
+      "sourceEvidence": {
+        "file": "",
+        "path": "",
+        "field": "",
+        "route": "/",
+        "method": "GET",
+        "reason": "Root landing page present in analyzed pages evidence.",
+        "source": "site-analysis",
+        "pageUrl": "https://the-internet.herokuapp.com/",
+        "endpoint": "",
+        "selector": ""
+      }
+    },
+    {
+      "caseId": "TC-1788330348130-02",
+      "title": "Verify navigation to application root landing page URL",
+      "description": "Verify that a web user can navigate directly to the root entry point URL https://the-internet.herokuapp.com/ to reach the application home landing page.",
+      "type": "Functional",
+      "priority": "P0",
+      "expectedResult": "The browser successfully navigates to https://the-internet.herokuapp.com/ and resolves to the root landing page.",
+      "confidence": 95,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "87b128c8-3e45-4d45-b08d-320121933374",
+      "projectId": "4ea321b1-73a5-497e-aced-47360731c104",
+      "testData": {},
+      "automationSpec": {
+        "url": "https://the-internet.herokuapp.com/",
+        "method": "GET",
+        "actions": [
+          "Navigate to https://the-internet.herokuapp.com/"
+        ],
+        "selector": "",
+        "assertions": [
+          "Verify that the current URL matches https://the-internet.herokuapp.com/"
         ]
       },
       "sourceEvidence": {
