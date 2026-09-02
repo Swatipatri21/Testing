@@ -4,81 +4,174 @@
   "applicationUrl": "https://the-internet.herokuapp.com",
   "sourceRepository": null,
   "analysis": {
-    "source": "site_analysis",
-    "startUrl": "https://the-internet.herokuapp.com",
-    "analyzedAt": "2026-09-02T06:25:06.942Z",
-    "pagesAnalyzed": 1,
-    "pages": [
-      {
-        "url": "https://the-internet.herokuapp.com/",
-        "finalUrl": "https://the-internet.herokuapp.com/",
-        "title": "",
-        "status": null,
-        "formCount": 0,
-        "inputCount": 0,
-        "buttonCount": 0,
-        "linkCount": 0,
-        "headingCount": 0,
-        "tableCount": 0,
-        "features": [],
-        "authSignals": [],
-        "error": "page.$$eval: ReferenceError: getElementLabel is not defined\n    at eval (eval at evaluate (:311:30), <anonymous>:9:13)\n    at Array.map (<anonymous>)\n    at eval (eval at evaluate (:311:30), <anonymous>:3:10)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
-      }
-    ],
-    "forms": [],
-    "inputs": [],
-    "buttons": [],
-    "links": [],
-    "messages": [],
-    "routes": [],
-    "headings": [],
-    "features": [],
-    "featureSummary": {
-      "totalPages": 1,
-      "totalForms": 0,
-      "totalInputs": 0,
-      "totalButtons": 0,
-      "totalLinks": 0,
-      "totalMessages": 0,
-      "uniqueRoutes": 0,
-      "features": [],
-      "authentication": {
-        "login": false,
-        "registration": false,
-        "passwordReset": false,
-        "authenticatedArea": false
+    "source": "combined-analysis",
+    "appUrl": "https://the-internet.herokuapp.com",
+    "repoUrl": null,
+    "testingTypes": [],
+    "site": {
+      "forms": [],
+      "links": [],
+      "pages": [
+        {
+          "url": "https://the-internet.herokuapp.com/",
+          "error": "page.$$eval: ReferenceError: getElementLabel is not defined\n    at eval (eval at evaluate (:311:30), <anonymous>:9:13)\n    at Array.map (<anonymous>)\n    at eval (eval at evaluate (:311:30), <anonymous>:3:10)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+          "title": "",
+          "status": null,
+          "features": [],
+          "finalUrl": "https://the-internet.herokuapp.com/",
+          "formCount": 0,
+          "linkCount": 0,
+          "inputCount": 0,
+          "tableCount": 0,
+          "authSignals": [],
+          "buttonCount": 0,
+          "headingCount": 0
+        }
+      ],
+      "inputs": [],
+      "routes": [],
+      "source": "site_analysis",
+      "buttons": [],
+      "signals": {
+        "hasForms": false,
+        "hasLogin": false,
+        "hasSearch": false,
+        "hasTables": false,
+        "hasDropdowns": false,
+        "hasCheckboxes": false,
+        "hasFileUpload": false,
+        "hasRadioButtons": false,
+        "hasRegistration": false,
+        "hasPasswordReset": false,
+        "hasAuthenticatedArea": false
       },
-      "fileUpload": false,
-      "search": false
-    },
-    "signals": {
-      "hasLogin": false,
-      "hasRegistration": false,
-      "hasPasswordReset": false,
-      "hasAuthenticatedArea": false,
-      "hasFileUpload": false,
-      "hasSearch": false,
-      "hasForms": false,
-      "hasTables": false,
-      "hasDropdowns": false,
-      "hasCheckboxes": false,
-      "hasRadioButtons": false
-    },
-    "textSummary": "",
-    "pageEvidence": [
-      {
-        "url": "https://the-internet.herokuapp.com/",
-        "title": "",
-        "forms": [],
-        "inputs": [],
-        "buttons": [],
-        "navigation": [],
-        "tables": [],
-        "messages": [],
-        "headings": [],
-        "authSignals": [],
-        "textSummary": ""
+      "features": [],
+      "headings": [],
+      "messages": [],
+      "startUrl": "https://the-internet.herokuapp.com",
+      "analyzedAt": "2026-09-02T06:25:20.982Z",
+      "textSummary": "",
+      "pageEvidence": [
+        {
+          "url": "https://the-internet.herokuapp.com/",
+          "forms": [],
+          "title": "",
+          "inputs": [],
+          "tables": [],
+          "buttons": [],
+          "headings": [],
+          "messages": [],
+          "navigation": [],
+          "authSignals": [],
+          "textSummary": ""
+        }
+      ],
+      "pagesAnalyzed": 1,
+      "featureSummary": {
+        "search": false,
+        "features": [],
+        "fileUpload": false,
+        "totalForms": 0,
+        "totalLinks": 0,
+        "totalPages": 1,
+        "totalInputs": 0,
+        "totalButtons": 0,
+        "uniqueRoutes": 0,
+        "totalMessages": 0,
+        "authentication": {
+          "login": false,
+          "registration": false,
+          "passwordReset": false,
+          "authenticatedArea": false
+        }
       }
-    ]
+    },
+    "repository": {},
+    "combined": {
+      "site": {
+        "forms": [],
+        "links": [],
+        "pages": [
+          {
+            "url": "https://the-internet.herokuapp.com/",
+            "error": "page.$$eval: ReferenceError: getElementLabel is not defined\n    at eval (eval at evaluate (:311:30), <anonymous>:9:13)\n    at Array.map (<anonymous>)\n    at eval (eval at evaluate (:311:30), <anonymous>:3:10)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+            "title": "",
+            "status": null,
+            "features": [],
+            "finalUrl": "https://the-internet.herokuapp.com/",
+            "formCount": 0,
+            "linkCount": 0,
+            "inputCount": 0,
+            "tableCount": 0,
+            "authSignals": [],
+            "buttonCount": 0,
+            "headingCount": 0
+          }
+        ],
+        "inputs": [],
+        "routes": [],
+        "source": "site_analysis",
+        "buttons": [],
+        "signals": {
+          "hasForms": false,
+          "hasLogin": false,
+          "hasSearch": false,
+          "hasTables": false,
+          "hasDropdowns": false,
+          "hasCheckboxes": false,
+          "hasFileUpload": false,
+          "hasRadioButtons": false,
+          "hasRegistration": false,
+          "hasPasswordReset": false,
+          "hasAuthenticatedArea": false
+        },
+        "features": [],
+        "headings": [],
+        "messages": [],
+        "startUrl": "https://the-internet.herokuapp.com",
+        "analyzedAt": "2026-09-02T06:25:20.982Z",
+        "textSummary": "",
+        "pageEvidence": [
+          {
+            "url": "https://the-internet.herokuapp.com/",
+            "forms": [],
+            "title": "",
+            "inputs": [],
+            "tables": [],
+            "buttons": [],
+            "headings": [],
+            "messages": [],
+            "navigation": [],
+            "authSignals": [],
+            "textSummary": ""
+          }
+        ],
+        "pagesAnalyzed": 1,
+        "featureSummary": {
+          "search": false,
+          "features": [],
+          "fileUpload": false,
+          "totalForms": 0,
+          "totalLinks": 0,
+          "totalPages": 1,
+          "totalInputs": 0,
+          "totalButtons": 0,
+          "uniqueRoutes": 0,
+          "totalMessages": 0,
+          "authentication": {
+            "login": false,
+            "registration": false,
+            "passwordReset": false,
+            "authenticatedArea": false
+          }
+        }
+      },
+      "appUrl": "https://the-internet.herokuapp.com",
+      "errors": [],
+      "source": "combined-analysis",
+      "repoUrl": null,
+      "analyzedAt": "2026-09-02T06:25:30.215Z",
+      "repository": null
+    }
   }
 }
