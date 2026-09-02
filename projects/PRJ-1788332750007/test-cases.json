@@ -1,0 +1,80 @@
+{
+  "projectId": "PRJ-1788332750007",
+  "projectName": "text_to_speech",
+  "sourceRepository": null,
+  "applicationUrl": "https://github.com/Swatipatri21/text_to_speech",
+  "generatedAt": "2026-09-02T07:20:16.087Z",
+  "count": 2,
+  "testCases": [
+    {
+      "caseId": "TC-1788333616072-01",
+      "title": "Verify text to speech conversion workflow",
+      "description": "Verify that text entered into the application can be successfully converted into speech audio as required by REQ-1788332865292-01.",
+      "type": "Functional",
+      "priority": "P0",
+      "expectedResult": "Application converts text into clear and understandable audio speech successfully within a few seconds.",
+      "confidence": 85,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "f87d5bf9-cc42-4028-9ae1-d09ab460178c",
+      "projectId": "4aabaea6-e536-4e4c-8726-9ea48cb38498",
+      "testData": {
+        "inputText": "Hello, this is a test for text to speech conversion."
+      },
+      "automationSpec": {
+        "url": "https://github.com/Swatipatri21/text_to_speech",
+        "method": "",
+        "actions": [],
+        "selector": "",
+        "assertions": []
+      },
+      "sourceEvidence": {
+        "file": "",
+        "path": "",
+        "field": "",
+        "route": "",
+        "method": "",
+        "reason": "Requirement REQ-1788332865292-01 acceptance criteria requires converting entered text into clear audio successfully within a few seconds.",
+        "source": "requirement",
+        "pageUrl": "https://github.com/Swatipatri21/text_to_speech",
+        "endpoint": "",
+        "selector": ""
+      }
+    },
+    {
+      "caseId": "TC-1788333616072-02",
+      "title": "Verify error message display when text input is empty",
+      "description": "Verify that attempting to start speech generation with an empty text input displays an appropriate error message.",
+      "type": "Functional",
+      "priority": "P1",
+      "expectedResult": "Appropriate error message is displayed when text input is empty and audio generation is not started.",
+      "confidence": 85,
+      "status": "DRAFT",
+      "selected": true,
+      "requirementId": "f87d5bf9-cc42-4028-9ae1-d09ab460178c",
+      "projectId": "4aabaea6-e536-4e4c-8726-9ea48cb38498",
+      "testData": {
+        "inputText": ""
+      },
+      "automationSpec": {
+        "url": "https://github.com/Swatipatri21/text_to_speech",
+        "method": "",
+        "actions": [],
+        "selector": "",
+        "assertions": []
+      },
+      "sourceEvidence": {
+        "file": "",
+        "path": "",
+        "field": "",
+        "route": "",
+        "method": "",
+        "reason": "Requirement REQ-1788332865292-01 acceptance criteria mandates that an appropriate error message is displayed when text input is empty.",
+        "source": "requirement",
+        "pageUrl": "https://github.com/Swatipatri21/text_to_speech",
+        "endpoint": "",
+        "selector": ""
+      }
+    }
+  ]
+}
